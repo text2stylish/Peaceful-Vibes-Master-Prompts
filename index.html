@@ -17,9 +17,92 @@ h2{margin:0;font:700 21px/1.3 system-ui,sans-serif}.copy{border:1px solid #cfc7b
 .prompt{border-top:1px solid var(--line);padding-top:18px;font-size:15.5px}.prompt p{margin:0 0 1.05em}
 footer{text-align:center;color:var(--muted);font:12px system-ui,sans-serif;margin-top:26px}
 @media(max-width:600px){.wrap{padding:24px 11px 50px}.card{padding:18px 15px;border-radius:15px}.card-head{align-items:flex-start}.copy{width:100%}.prompt{font-size:15px;line-height:1.72}}
+#passwordGate {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(4,5,9,0.94);
+  backdrop-filter: blur(22px);
+}
+
+#passwordBox {
+  width: min(420px, 100%);
+  padding: 30px 24px;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 24px;
+  background: rgba(14,16,24,0.90);
+  box-shadow: 0 24px 90px rgba(0,0,0,0.5);
+}
+
+#passwordBox h2 {
+  margin: 0 0 8px;
+  font-size: 25px;
+}
+
+#passwordBox p {
+  margin: 0 0 20px;
+  color: #aeb4c1;
+  font-size: 13px;
+}
+
+#passwordInput {
+  width: 100%;
+  padding: 13px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.07);
+  color: white;
+  outline: none;
+  font-size: 15px;
+}
+
+#unlockBtn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.11);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#passwordError {
+  min-height: 20px;
+  margin-top: 10px;
+  color: #ff9a9a;
+  font-size: 12px;
+}
 </style>
 </head>
 <body>
+  <div id="passwordGate">
+  <div id="passwordBox">
+    <div style="font-size:34px;margin-bottom:8px">🔐</div>
+
+    <h2>Peaceful Vibes</h2>
+
+    <p>Enter your password to open the Master Prompt Library.</p>
+
+    <input
+      id="passwordInput"
+      type="password"
+      placeholder="Enter password"
+    >
+
+    <button id="unlockBtn" onclick="unlockPage()">
+      Unlock Library
+    </button>
+
+    <div id="passwordError"></div>
+  </div>
+  </div>
 <main class="wrap">
 <header><div class="eyebrow">🌿 Peaceful Vibes</div><h1>Master Prompt Library</h1><p class="sub">Tap to copy the complete prompt</p></header>
 
@@ -114,5 +197,40 @@ async function copyPrompt(which,button) {
   setTimeout(()=>{button.textContent=old;status.textContent="";},2200);
 }
 </script>
+  <script>
+
+const MASTER_PASSWORD = "Zyraon$341524";
+
+function unlockPage() {
+
+  const input = document.getElementById("passwordInput");
+  const error = document.getElementById("passwordError");
+
+  if (input.value === MASTER_PASSWORD) {
+
+    document.getElementById("passwordGate").style.display = "none";
+
+    error.textContent = "";
+
+    sessionStorage.setItem("peacefulVibesUnlocked", "1");
+
+  } else {
+
+    error.textContent = "Incorrect password. Please try again.";
+
+    input.select();
+
+  }
+}
+
+document.getElementById("passwordInput").addEventListener("keydown", function(e) {
+
+  if (e.key === "Enter") {
+    unlockPage();
+  }
+
+});
+
+  </script>
 </body>
 </html>
