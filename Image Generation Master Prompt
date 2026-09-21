@@ -1,0 +1,283 @@
+Generate exactly one highly refined, realistic cinematic image-generation prompt inspired by the provided reference image. Do not generate the actual image.
+
+The reference image is the primary visual foundation. Carefully analyze the reference and identify its single primary architectural subject, including its building type, architectural identity, structure, proportions, silhouette, roof design, materials, windows, doors, surrounding spatial relationship, composition, and environmental character.
+
+SINGLE PRIMARY DWELLING RULE — CRITICAL:
+
+The generated scene must contain ONE primary standalone dwelling as the main architectural subject.
+
+Identify the building type shown in the reference and preserve that same building identity throughout the generated scene.
+
+If the reference shows a cottage, generate a cottage.
+If the reference shows a cabin, generate a cabin.
+If the reference shows a chalet, generate a chalet.
+If the reference shows a lodge, generate a lodge.
+If the reference shows a farmhouse, generate a farmhouse.
+If the reference shows another clearly identifiable house type, preserve that same type.
+
+NEVER combine, merge, hybridize, or reinterpret different dwelling types into one structure.
+
+Do not turn a cottage into a cabin.
+Do not turn a cabin into a chalet.
+Do not combine cottage + cabin.
+Do not combine cabin + lodge.
+Do not combine multiple architectural identities.
+Do not create a visually confusing hybrid building.
+
+The final architecture must remain faithful to the primary dwelling identity established by the reference.
+
+ONE HOUSE DOES NOT MEAN ONE OBJECT:
+
+The scene may contain natural environmental elements and appropriate supporting structures such as a small woodpile, simple fence, pathway, bridge, shed, or other minor contextual elements only when they naturally belong to the location.
+
+However, these secondary elements must never become competing houses or visually dominant buildings.
+
+Do not introduce another cottage, cabin, chalet, lodge, farmhouse, house, or large residential structure into the scene.
+
+The primary dwelling must remain the unmistakable visual and emotional anchor.
+
+PERMANENT SNOW ENVIRONMENT:
+
+Snow and winter atmosphere are the permanent visual identity of every generated scene.
+
+Whether or not snow exists in the reference, transform the location into a believable snowy winter environment while preserving the original architectural identity and recognizable character.
+
+If the reference already contains snow, naturally enhance the existing winter environment.
+
+If the reference does not contain snow, intelligently reinterpret its surroundings into a realistic winter landscape.
+
+Do not simply place the building on a flat white surface.
+
+Build a complete, believable snowy environment around the primary dwelling.
+
+AUTOMATIC ENVIRONMENT DESIGN:
+
+Act as an expert cinematic environment designer, architectural visualizer, landscape artist, and professional photographer.
+
+Do not merely describe what already exists in the reference.
+
+Determine what would naturally make THIS particular location more beautiful, peaceful, immersive, cinematic, and visually memorable.
+
+Automatically design and enhance appropriate environmental elements such as:
+
+snow-covered evergreen trees, natural woodland, distant mountains, snowy hills, rocky terrain, frozen streams, snow-covered shrubs, natural pathways, wooden fences, snowbanks, subtle footprints, partially buried rocks, frozen vegetation, atmospheric mist, distant forests, layered terrain, or other location-appropriate details.
+
+Choose environmental elements based on the reference.
+
+Do not automatically add every possible element.
+
+Do not overcrowd the scene.
+
+Do not use a repetitive “cottage + pine trees + mountains” formula for every image.
+
+The environment should feel specifically designed for the architecture and geographic character of the reference.
+
+REFERENCE-BASED TRANSFORMATION:
+
+Use the reference for:
+
+architectural identity,
+building type,
+overall structure,
+spatial relationship,
+composition inspiration,
+perspective,
+environmental character,
+visual storytelling,
+and recognizable design details.
+
+Do not reproduce the reference exactly.
+
+Do not copy its photographic style.
+
+Do not copy its original season.
+
+Do not copy its original weather.
+
+Do not copy imperfections that reduce realism.
+
+Instead, intelligently improve the scene while maintaining the reference's recognizable identity.
+
+ARCHITECTURE PRESERVATION:
+
+Preserve the primary dwelling's recognizable:
+
+silhouette,
+roof form,
+walls,
+windows,
+doors,
+materials,
+proportions,
+architectural character,
+and overall structural identity.
+
+You may improve presentation, realism, material quality, landscaping, snow accumulation, lighting, and environmental integration.
+
+Do not unnecessarily redesign the architecture.
+
+Do not add additional floors, wings, towers, extensions, porches, or architectural sections unless they are naturally consistent with the reference.
+
+Do not transform a simple building into an unrelated luxury mansion or fantasy structure.
+
+SNOW REALISM:
+
+Snow must behave like physically believable real snow.
+
+Create natural snow accumulation on:
+
+roof surfaces,
+roof edges,
+window ledges,
+stairs,
+pathways,
+railings,
+trees,
+rocks,
+fences,
+ground,
+and other exposed surfaces.
+
+Use varied snow depth, natural irregularities, compressed snow, soft snow edges, subtle melting, realistic shadows, footprints, and believable interaction with underlying materials where appropriate.
+
+Avoid perfectly smooth artificial snow.
+
+Avoid covering every surface with identical amounts of snow.
+
+Avoid floating snow or physically impossible snow formations.
+
+ENVIRONMENTAL DEPTH:
+
+Build clear foreground, midground, primary subject, and background separation.
+
+Use natural terrain, trees, snowbanks, pathways, rocks, vegetation, and atmospheric perspective to create depth and scale.
+
+The main dwelling should remain clearly readable while the environment creates cinematic immersion.
+
+Do not allow foreground elements to unnecessarily block the architecture.
+
+Do not make the background so busy that it competes with the primary dwelling.
+
+CINEMATIC COMPOSITION:
+
+Create a professionally composed cinematic wide shot with clear subject hierarchy.
+
+Use natural framing, leading lines, architectural geometry, environmental framing, perspective, negative space, depth layering, and balanced visual weight.
+
+The composition should feel intentionally photographed by a professional architectural and landscape photographer.
+
+Avoid generic centered compositions when a more natural cinematic perspective would be stronger.
+
+Avoid awkward cropping, excessive empty space, flat perspective, visual clutter, and competing focal points.
+
+The primary dwelling must remain the dominant visual subject.
+
+LIGHTING AND ATMOSPHERE:
+
+Use natural cinematic lighting appropriate to the scene.
+
+Automatically choose the most suitable realistic winter lighting condition, such as:
+
+soft winter daylight,
+overcast snowy light,
+gentle sunrise,
+subtle sunset,
+blue hour,
+quiet moonlit winter atmosphere,
+or another believable natural condition.
+
+When appropriate, allow subtle warm interior light through windows to contrast naturally with the cool snowy exterior.
+
+Use soft volumetric light, subtle atmospheric diffusion, realistic shadows, natural reflections, and believable winter haze where appropriate.
+
+Never use excessive glow, artificial neon lighting, extreme HDR, fantasy lighting, or exaggerated visual effects.
+
+MATERIAL REALISM:
+
+Use authentic physical textures for wood, stone, glass, metal, snow, ice, vegetation, roofing materials, soil, and pathways.
+
+Include realistic weathering, imperfections, moisture interaction, roughness variation, reflections, and natural material response to light.
+
+Avoid plastic-looking surfaces, excessive smoothness, artificial perfection, or CGI-like textures.
+
+EMOTIONAL STORYTELLING:
+
+The scene should communicate peaceful winter solitude, warmth, comfort, quietness, nostalgia, intimacy, and emotional escape.
+
+The viewer should feel as though they could physically stand outside the dwelling and experience the cold snowy environment while feeling warmth and shelter from the building.
+
+Use subtle storytelling elements such as warm windows, a naturally cleared pathway, footprints, a small woodpile, gentle chimney smoke, or other restrained details only when they make sense for the specific reference.
+
+Do not clutter the scene with unnecessary props.
+
+ANTI-GENERIC RULE:
+
+Never generate a generic scene simply described as:
+
+“a cottage in the snow”
+“a cabin in the snow”
+“a house surrounded by snow.”
+
+The result must feel like a unique real location.
+
+Snow is the permanent theme, but the architecture, terrain, vegetation, geography, composition, atmospheric conditions, lighting, and environmental storytelling must naturally change according to the reference.
+
+The primary dwelling type must remain consistent and singular.
+
+NO MULTIPLE HOUSE TYPES:
+
+This rule is absolute.
+
+Never place a cottage and cabin together.
+
+Never place a cabin and chalet together.
+
+Never place multiple different house types together.
+
+Never create two visually competing residential buildings.
+
+Never transform one reference house into a collection of different house styles.
+
+If additional structures are visible in the reference, keep them subordinate and architecturally consistent with the primary property rather than introducing unrelated dwelling types.
+
+The generated scene should have ONE clearly dominant residential architectural identity.
+
+PERMANENT PHOTOGRAPHIC SIGNATURE:
+
+Every generated prompt must use this exact fixed visual signature without changing it according to the reference:
+
+photorealistic cinematic wide shot, Sony 20mm lens, natural cinematic lighting with soft volumetric light, realistic atmospheric depth, authentic organic textures, balanced cinematic composition, immersive environmental storytelling, natural color harmony, subtle light diffusion, grounded photorealistic realism, emotionally warm and peaceful atmosphere, rich depth and scale, visually immersive yet intimate, premium cinematic photography.
+
+QUALITY CONTROL:
+
+Before producing the final prompt, internally verify that:
+
+the primary dwelling type matches the reference,
+only one dominant residential architectural identity exists,
+no unrelated house type has been introduced,
+the scene is naturally transformed into winter,
+snow is physically believable,
+the environment is specific to the reference,
+the architecture remains recognizable,
+the composition has strong cinematic depth,
+the primary dwelling remains the focal point,
+lighting is natural and believable,
+textures are photorealistic,
+the scene does not feel generic,
+and the final result feels emotionally peaceful and visually premium.
+
+OUTPUT:
+
+Generate exactly ONE complete image-generation prompt.
+
+The image-generation prompt must be cohesive, specific, concise, professional, and directly usable by an image-generation model.
+
+Do not generate the actual image.
+
+After the image-generation prompt, generate 10 or more short cinematic captions following the emotional rhythm, sentence flow, warmth, simplicity, and poetic style of:
+
+“Frozen lane, golden pane, and love that feels like home again. ❄️✨”
+
+Every caption must be grammatically correct, naturally written, concise, cozy, emotionally immersive, and suitable for the generated snowy dwelling scene.
+
+Do not add headings, labels, explanations, numbering, quotation marks, or commentary around the image-generation prompt or captions.
